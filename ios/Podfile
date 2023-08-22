@@ -1,0 +1,82 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+use_frameworks! :linkage => :static
+# right after `use_frameworks! :linkage => :static`
+$RNFirebaseAsStaticFramework = true
+
+# Override Firebase SDK Version
+$FirebaseSDKVersion = '10.6.0'
+
+platform :ios, '13.0'
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'abinbevcat' do
+  config = use_native_modules!
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  # Webview
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+#  pod 'react-native-google-maps', :path => rn_maps_path
+      pod 'GoogleMaps' #, '6.2.1' # <<<<---- I added the '5.1.0' version here
+      pod 'Google-Maps-iOS-Utils' #, '~> 4.1.0' # <<<<---- I added the '3.10.3' version here
+      $static_library = [
+        'React',
+        'Google-Maps-iOS-Utils',
+        'GoogleMaps',
+        'react-native-google-maps',
+        'react-native-maps',
+        'React-hermes'
+      ]
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # Hermes is now enabled by default. Disable by setting this flag to false.
+    # Upcoming versions of React Native may rely on get_default_flags(), but
+    # we make it explicit here to aid in the React Native upgrade process.
+    :hermes_enabled => true,
+    :fabric_enabled => flags[:fabric_enabled],
+    # Enables Flipper.
+    #
+    # Note that if you have use_frameworks! enabled, Flipper will not work and
+    # you should disable the next line.
+    # :flipper_configuration => FlipperConfiguration.disabled,
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+  target 'abinbevcatTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = "arm64"
+      end
+    end
+  end
+  
+  pre_install do |installer|
+    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+    installer.pod_targets.each do |pod|
+      bt = pod.send(:build_type)
+      if $static_library.include?(pod.name)
+        puts "Overriding the build_type to static_library from static_framework for #{pod.name}"
+        def pod.build_type;
+          Pod::BuildType.static_library
+        end
+      end
+    end
+    installer.pod_targets.each do |pod|
+      bt = pod.send(:build_type)
+      puts "#{pod.name} (#{bt})"
+      puts "  linkage: #{bt.send(:linkage)} packaging: #{bt.send(:packaging)}"
+    end
+  end
+end

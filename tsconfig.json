@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "noUncheckedIndexedAccess": false,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "jsx": "react-native",
+    "paths": {
+      "~pages/*": ["./pages/*"],
+      "~images/*": ["./images/*"],
+      "~constants/*": ["./constants/*"],
+      "~components/*": ["./components/*"],
+      "~apis/*": ["./apis/*"],
+      "~helpers/*": ["./helpers/*"],
+      "~redux/*": ["./redux/*"],
+      "~routes/*": ["./routes/*"],
+      "~types/*": ["./types/*"]
+    }
+  }
+}

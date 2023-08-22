@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* abinbevcatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* abinbevcatTests.m */; };
+		097E23848BD84F7E945DFBB0 /* opensans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69BA10B12AAD4919BF9111B2 /* opensans_medium.ttf */; };
+		0B6F67012946EDD200886FBD /* AIRDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66CB2946EDD100886FBD /* AIRDummyView.m */; };
+		0B6F67022946EDD200886FBD /* AIRGoogleMapUrlTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66CF2946EDD100886FBD /* AIRGoogleMapUrlTile.m */; };
+		0B6F67032946EDD200886FBD /* AIRGoogleMapPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66D22946EDD100886FBD /* AIRGoogleMapPolygonManager.m */; };
+		0B6F67042946EDD200886FBD /* AIRGoogleMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66D52946EDD100886FBD /* AIRGoogleMapMarker.m */; };
+		0B6F67052946EDD200886FBD /* AIRGMSPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66D92946EDD100886FBD /* AIRGMSPolygon.m */; };
+		0B6F67062946EDD200886FBD /* AIRGoogleMapURLTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66DA2946EDD100886FBD /* AIRGoogleMapURLTileManager.m */; };
+		0B6F67072946EDD200886FBD /* AIRGoogleMapWMSTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66DB2946EDD100886FBD /* AIRGoogleMapWMSTileManager.m */; };
+		0B6F67082946EDD200886FBD /* AIRGoogleMapCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66DC2946EDD100886FBD /* AIRGoogleMapCircle.m */; };
+		0B6F67092946EDD200886FBD /* AIRGoogleMapCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66E42946EDD100886FBD /* AIRGoogleMapCircleManager.m */; };
+		0B6F670A2946EDD200886FBD /* AIRGoogleMapCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66E62946EDD100886FBD /* AIRGoogleMapCalloutManager.m */; };
+		0B6F670B2946EDD200886FBD /* AIRGoogleMapMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66E72946EDD100886FBD /* AIRGoogleMapMarkerManager.m */; };
+		0B6F670C2946EDD200886FBD /* AIRGoogleMapPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66E92946EDD100886FBD /* AIRGoogleMapPolyline.m */; };
+		0B6F670D2946EDD200886FBD /* AIRGoogleMapHeatmapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66EA2946EDD100886FBD /* AIRGoogleMapHeatmapManager.m */; };
+		0B6F670E2946EDD200886FBD /* AIRGoogleMapWMSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66EB2946EDD100886FBD /* AIRGoogleMapWMSTile.m */; };
+		0B6F670F2946EDD200886FBD /* AIRGoogleMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66EE2946EDD100886FBD /* AIRGoogleMapOverlay.m */; };
+		0B6F67102946EDD200886FBD /* AIRGMSPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66EF2946EDD100886FBD /* AIRGMSPolyline.m */; };
+		0B6F67112946EDD200886FBD /* AIRGoogleMapPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F02946EDD100886FBD /* AIRGoogleMapPolylineManager.m */; };
+		0B6F67122946EDD200886FBD /* AIRGoogleMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F12946EDD100886FBD /* AIRGoogleMapManager.m */; };
+		0B6F67132946EDD200886FBD /* RCTConvert+GMSMapViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F42946EDD100886FBD /* RCTConvert+GMSMapViewType.m */; };
+		0B6F67142946EDD200886FBD /* AIRGoogleMapCalloutSubviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F52946EDD100886FBD /* AIRGoogleMapCalloutSubviewManager.m */; };
+		0B6F67152946EDD200886FBD /* AIRGoogleMapCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F62946EDD100886FBD /* AIRGoogleMapCallout.m */; };
+		0B6F67162946EDD200886FBD /* AIRGoogleMapOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F72946EDD100886FBD /* AIRGoogleMapOverlayManager.m */; };
+		0B6F67172946EDD200886FBD /* AIRGoogleMapHeatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F82946EDD100886FBD /* AIRGoogleMapHeatmap.m */; };
+		0B6F67182946EDD200886FBD /* AIRGoogleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66F92946EDD100886FBD /* AIRGoogleMap.m */; };
+		0B6F67192946EDD200886FBD /* AIRGoogleMapPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66FE2946EDD100886FBD /* AIRGoogleMapPolygon.m */; };
+		0B6F671A2946EDD200886FBD /* AIRGMSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F66FF2946EDD100886FBD /* AIRGMSMarker.m */; };
+		0B6F671B2946EDD200886FBD /* AIRGoogleMapCalloutSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F67002946EDD100886FBD /* AIRGoogleMapCalloutSubview.m */; };
+		0BB99BCC29BD0B8300F26600 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB99BCB29BD0B8200F26600 /* GoogleService-Info.plist */; };
+		0BDFEBF1294445DB00B90051 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0BDFEBF0294445DB00B90051 /* Fonts */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		227EA54472584B8AB0345386 /* opensans_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAAC4894668145268D8E1BD9 /* opensans_regular.ttf */; };
+		3793E8AC303040C4AF46404B /* opensans_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7065CD41C8584796B48AA204 /* opensans_semibold.ttf */; };
+		53B1DE6AF53B049D9209590D /* Pods_abinbevcat_abinbevcatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD9277A67EDBD436A5460FD /* Pods_abinbevcat_abinbevcatTests.framework */; };
+		7073076E8F6489C80C1B5D26 /* Pods_abinbevcat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55208496F4A62CE4FB9B7B5F /* Pods_abinbevcat.framework */; };
+		73A4160F0C434A6DB17B4FAF /* opensans_lightitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25ADC8395FFD4ED68BA33D9C /* opensans_lightitalic.ttf */; };
+		806A94D06D004E4C877BDDB1 /* opensans_extrabolditalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6704DDAA22314EAD9EB7A7ED /* opensans_extrabolditalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83EE7111D3124AE79B49A67C /* opensans_bolditalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 078C102C9C9C44E088CC6416 /* opensans_bolditalic.ttf */; };
+		901FBFC64D884C91983C89E6 /* opensans_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1155BD7BE4D742EB9A399D98 /* opensans_italic.ttf */; };
+		9C88A03655A0478E9019C7C4 /* opensans_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9327C44673814DF59C764790 /* opensans_light.ttf */; };
+		ACAB736808214F4C9D438047 /* opensans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89838B65E7E4F3CB5915256 /* opensans_bold.ttf */; };
+		F00829245ABD451D98957AE5 /* opensans_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8515BBD4A3F4720A5096AC5 /* opensans_extrabold.ttf */; };
+		F9F678F7F154425789D0D28A /* opensan_variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFD15DBADF4C4AA52CF14A /* opensan_variable.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = abinbevcat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* abinbevcatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abinbevcatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* abinbevcatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abinbevcatTests.m; sourceTree = "<group>"; };
+		078C102C9C9C44E088CC6416 /* opensans_bolditalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_bolditalic.ttf; path = ../assets/fonts/opensans_bolditalic.ttf; sourceTree = "<group>"; };
+		0B6F668A2946EB8100886FBD /* AIRMapLocalTileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapLocalTileManager.h; sourceTree = "<group>"; };
+		0B6F668B2946EB8100886FBD /* AIRMapCallout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCallout.h; sourceTree = "<group>"; };
+		0B6F668C2946EB8100886FBD /* AIRWeakTimerReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRWeakTimerReference.h; sourceTree = "<group>"; };
+		0B6F668D2946EB8100886FBD /* AIRMapLocalTileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapLocalTileOverlay.h; sourceTree = "<group>"; };
+		0B6F668E2946EB8100886FBD /* AIRMapCalloutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCalloutManager.m; sourceTree = "<group>"; };
+		0B6F668F2946EB8100886FBD /* AIRMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMap.h; sourceTree = "<group>"; };
+		0B6F66902946EB8100886FBD /* AIRMapPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapPolygon.h; sourceTree = "<group>"; };
+		0B6F66912946EB8100886FBD /* AIRMapPolygonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapPolygonManager.h; sourceTree = "<group>"; };
+		0B6F66922946EB8100886FBD /* AIRMapMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapMarker.h; sourceTree = "<group>"; };
+		0B6F66932946EB8100886FBD /* AIRMapCircleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCircleManager.h; sourceTree = "<group>"; };
+		0B6F66942946EB8100886FBD /* AIRWeakMapReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRWeakMapReference.h; sourceTree = "<group>"; };
+		0B6F66952946EB8100886FBD /* AIRMapUrlTileCachedOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapUrlTileCachedOverlay.m; sourceTree = "<group>"; };
+		0B6F66962946EB8100886FBD /* AIRMapPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapPolyline.h; sourceTree = "<group>"; };
+		0B6F66972946EB8100886FBD /* AIRMapLocalTile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapLocalTile.m; sourceTree = "<group>"; };
+		0B6F66982946EB8100886FBD /* AIRMapWMSTileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapWMSTileManager.h; sourceTree = "<group>"; };
+		0B6F66992946EB8100886FBD /* AIRMapUrlTileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapUrlTileManager.h; sourceTree = "<group>"; };
+		0B6F669A2946EB8100886FBD /* AIRMapMarkerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapMarkerManager.m; sourceTree = "<group>"; };
+		0B6F669B2946EB8100886FBD /* AIRMapCalloutSubviewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCalloutSubviewManager.h; sourceTree = "<group>"; };
+		0B6F669C2946EB8100886FBD /* AIRMapUrlTile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapUrlTile.m; sourceTree = "<group>"; };
+		0B6F669D2946EB8100886FBD /* AIRMapPolylineRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapPolylineRenderer.m; sourceTree = "<group>"; };
+		0B6F669E2946EB8100886FBD /* AIRMapOverlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapOverlayManager.m; sourceTree = "<group>"; };
+		0B6F669F2946EB8100886FBD /* AIRMapWMSTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapWMSTile.h; sourceTree = "<group>"; };
+		0B6F66A02946EB8100886FBD /* AIRMapCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCircle.h; sourceTree = "<group>"; };
+		0B6F66A12946EB8100886FBD /* AIRMapCoordinate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCoordinate.m; sourceTree = "<group>"; };
+		0B6F66A22946EB8100886FBD /* RCTConvert+AirMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+AirMap.h"; sourceTree = "<group>"; };
+		0B6F66A32946EB8100886FBD /* AIRMapCalloutSubview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCalloutSubview.m; sourceTree = "<group>"; };
+		0B6F66A42946EB8100886FBD /* AIRMapOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapOverlay.h; sourceTree = "<group>"; };
+		0B6F66A52946EB8100886FBD /* AIRMapOverlayRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapOverlayRenderer.h; sourceTree = "<group>"; };
+		0B6F66A62946EB8100886FBD /* AIRMapManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapManager.h; sourceTree = "<group>"; };
+		0B6F66A72946EB8100886FBD /* AIRMapPolylineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapPolylineManager.m; sourceTree = "<group>"; };
+		0B6F66A82946EB8100886FBD /* AIRMapCalloutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCalloutManager.h; sourceTree = "<group>"; };
+		0B6F66AA2946EB8100886FBD /* SMCalloutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCalloutView.m; sourceTree = "<group>"; };
+		0B6F66AB2946EB8100886FBD /* SMCalloutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCalloutView.h; sourceTree = "<group>"; };
+		0B6F66AC2946EB8100886FBD /* AIRMapLocalTileOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapLocalTileOverlay.m; sourceTree = "<group>"; };
+		0B6F66AD2946EB8100886FBD /* AIRWeakTimerReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRWeakTimerReference.m; sourceTree = "<group>"; };
+		0B6F66AE2946EB8100886FBD /* AIRMapCallout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCallout.m; sourceTree = "<group>"; };
+		0B6F66AF2946EB8100886FBD /* AIRMapLocalTileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapLocalTileManager.m; sourceTree = "<group>"; };
+		0B6F66B02946EB8100886FBD /* AIRMapPolyline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapPolyline.m; sourceTree = "<group>"; };
+		0B6F66B12946EB8100886FBD /* AIRMapSnapshot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapSnapshot.h; sourceTree = "<group>"; };
+		0B6F66B22946EB8100886FBD /* AIRWeakMapReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRWeakMapReference.m; sourceTree = "<group>"; };
+		0B6F66B32946EB8100886FBD /* AIRMapUrlTileCachedOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapUrlTileCachedOverlay.h; sourceTree = "<group>"; };
+		0B6F66B42946EB8100886FBD /* AIRMapCircleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCircleManager.m; sourceTree = "<group>"; };
+		0B6F66B52946EB8100886FBD /* AIRMapMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapMarker.m; sourceTree = "<group>"; };
+		0B6F66B62946EB8100886FBD /* AIRMapPolygonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapPolygonManager.m; sourceTree = "<group>"; };
+		0B6F66B72946EB8100886FBD /* AIRMapPolygon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapPolygon.m; sourceTree = "<group>"; };
+		0B6F66B82946EB8100886FBD /* AIRMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMap.m; sourceTree = "<group>"; };
+		0B6F66B92946EB8100886FBD /* AIRMapCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCoordinate.h; sourceTree = "<group>"; };
+		0B6F66BA2946EB8100886FBD /* AIRMapCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCircle.m; sourceTree = "<group>"; };
+		0B6F66BB2946EB8100886FBD /* AIRMapOverlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapOverlayManager.h; sourceTree = "<group>"; };
+		0B6F66BC2946EB8100886FBD /* AIRMapWMSTile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapWMSTile.m; sourceTree = "<group>"; };
+		0B6F66BD2946EB8100886FBD /* AIRMapPolylineRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapPolylineRenderer.h; sourceTree = "<group>"; };
+		0B6F66BE2946EB8100886FBD /* AIRMapUrlTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapUrlTile.h; sourceTree = "<group>"; };
+		0B6F66BF2946EB8100886FBD /* AIRMapCalloutSubviewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapCalloutSubviewManager.m; sourceTree = "<group>"; };
+		0B6F66C02946EB8100886FBD /* AIRMapUrlTileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapUrlTileManager.m; sourceTree = "<group>"; };
+		0B6F66C12946EB8100886FBD /* AIRMapMarkerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapMarkerManager.h; sourceTree = "<group>"; };
+		0B6F66C22946EB8100886FBD /* AIRMapWMSTileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapWMSTileManager.m; sourceTree = "<group>"; };
+		0B6F66C32946EB8100886FBD /* AIRMapLocalTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapLocalTile.h; sourceTree = "<group>"; };
+		0B6F66C42946EB8100886FBD /* AIRMapPolylineManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapPolylineManager.h; sourceTree = "<group>"; };
+		0B6F66C52946EB8100886FBD /* AIRMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapManager.m; sourceTree = "<group>"; };
+		0B6F66C62946EB8100886FBD /* AIRMapOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapOverlay.m; sourceTree = "<group>"; };
+		0B6F66C72946EB8100886FBD /* AIRMapOverlayRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRMapOverlayRenderer.m; sourceTree = "<group>"; };
+		0B6F66C82946EB8100886FBD /* AIRMapCalloutSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRMapCalloutSubview.h; sourceTree = "<group>"; };
+		0B6F66C92946EB8100886FBD /* RCTConvert+AirMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+AirMap.m"; sourceTree = "<group>"; };
+		0B6F66CB2946EDD100886FBD /* AIRDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRDummyView.m; sourceTree = "<group>"; };
+		0B6F66CC2946EDD100886FBD /* AIRGoogleMapWMSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapWMSTile.h; sourceTree = "<group>"; };
+		0B6F66CD2946EDD100886FBD /* AIRGoogleMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolyline.h; sourceTree = "<group>"; };
+		0B6F66CE2946EDD100886FBD /* AIRGoogleMapHeatmapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapHeatmapManager.h; sourceTree = "<group>"; };
+		0B6F66CF2946EDD100886FBD /* AIRGoogleMapUrlTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapUrlTile.m; sourceTree = "<group>"; };
+		0B6F66D02946EDD100886FBD /* AIRGoogleMapMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarkerManager.h; sourceTree = "<group>"; };
+		0B6F66D12946EDD100886FBD /* AIRGoogleMapCalloutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutManager.h; sourceTree = "<group>"; };
+		0B6F66D22946EDD100886FBD /* AIRGoogleMapPolygonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygonManager.m; sourceTree = "<group>"; };
+		0B6F66D32946EDD100886FBD /* RCTConvert+GMSMapViewType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+GMSMapViewType.h"; sourceTree = "<group>"; };
+		0B6F66D42946EDD100886FBD /* AIRGoogleMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapManager.h; sourceTree = "<group>"; };
+		0B6F66D52946EDD100886FBD /* AIRGoogleMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarker.m; sourceTree = "<group>"; };
+		0B6F66D62946EDD100886FBD /* AIRGMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolyline.h; sourceTree = "<group>"; };
+		0B6F66D72946EDD100886FBD /* AIRGoogleMapPolylineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolylineManager.h; sourceTree = "<group>"; };
+		0B6F66D82946EDD100886FBD /* AIRGoogleMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlay.h; sourceTree = "<group>"; };
+		0B6F66D92946EDD100886FBD /* AIRGMSPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolygon.m; sourceTree = "<group>"; };
+		0B6F66DA2946EDD100886FBD /* AIRGoogleMapURLTileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapURLTileManager.m; sourceTree = "<group>"; };
+		0B6F66DB2946EDD100886FBD /* AIRGoogleMapWMSTileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapWMSTileManager.m; sourceTree = "<group>"; };
+		0B6F66DC2946EDD100886FBD /* AIRGoogleMapCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircle.m; sourceTree = "<group>"; };
+		0B6F66DD2946EDD100886FBD /* AIRGoogleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMap.h; sourceTree = "<group>"; };
+		0B6F66DE2946EDD100886FBD /* AIRGoogleMapHeatmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapHeatmap.h; sourceTree = "<group>"; };
+		0B6F66DF2946EDD100886FBD /* AIRGoogleMapOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlayManager.h; sourceTree = "<group>"; };
+		0B6F66E02946EDD100886FBD /* AIRGoogleMapCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCallout.h; sourceTree = "<group>"; };
+		0B6F66E12946EDD100886FBD /* AIRGoogleMapCalloutSubviewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutSubviewManager.h; sourceTree = "<group>"; };
+		0B6F66E22946EDD100886FBD /* AIRGoogleMapCalloutSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutSubview.h; sourceTree = "<group>"; };
+		0B6F66E32946EDD100886FBD /* AIRGMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSMarker.h; sourceTree = "<group>"; };
+		0B6F66E42946EDD100886FBD /* AIRGoogleMapCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircleManager.m; sourceTree = "<group>"; };
+		0B6F66E52946EDD100886FBD /* AIRGoogleMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygon.h; sourceTree = "<group>"; };
+		0B6F66E62946EDD100886FBD /* AIRGoogleMapCalloutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutManager.m; sourceTree = "<group>"; };
+		0B6F66E72946EDD100886FBD /* AIRGoogleMapMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarkerManager.m; sourceTree = "<group>"; };
+		0B6F66E82946EDD100886FBD /* AIRGoogleMapUrlTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTile.h; sourceTree = "<group>"; };
+		0B6F66E92946EDD100886FBD /* AIRGoogleMapPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolyline.m; sourceTree = "<group>"; };
+		0B6F66EA2946EDD100886FBD /* AIRGoogleMapHeatmapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapHeatmapManager.m; sourceTree = "<group>"; };
+		0B6F66EB2946EDD100886FBD /* AIRGoogleMapWMSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapWMSTile.m; sourceTree = "<group>"; };
+		0B6F66EC2946EDD100886FBD /* AIRDummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRDummyView.h; sourceTree = "<group>"; };
+		0B6F66ED2946EDD100886FBD /* AIRGMSPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolygon.h; sourceTree = "<group>"; };
+		0B6F66EE2946EDD100886FBD /* AIRGoogleMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlay.m; sourceTree = "<group>"; };
+		0B6F66EF2946EDD100886FBD /* AIRGMSPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolyline.m; sourceTree = "<group>"; };
+		0B6F66F02946EDD100886FBD /* AIRGoogleMapPolylineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolylineManager.m; sourceTree = "<group>"; };
+		0B6F66F12946EDD100886FBD /* AIRGoogleMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapManager.m; sourceTree = "<group>"; };
+		0B6F66F22946EDD100886FBD /* AIRGoogleMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarker.h; sourceTree = "<group>"; };
+		0B6F66F32946EDD100886FBD /* AIRGoogleMapPolygonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygonManager.h; sourceTree = "<group>"; };
+		0B6F66F42946EDD100886FBD /* RCTConvert+GMSMapViewType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+GMSMapViewType.m"; sourceTree = "<group>"; };
+		0B6F66F52946EDD100886FBD /* AIRGoogleMapCalloutSubviewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutSubviewManager.m; sourceTree = "<group>"; };
+		0B6F66F62946EDD100886FBD /* AIRGoogleMapCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCallout.m; sourceTree = "<group>"; };
+		0B6F66F72946EDD100886FBD /* AIRGoogleMapOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlayManager.m; sourceTree = "<group>"; };
+		0B6F66F82946EDD100886FBD /* AIRGoogleMapHeatmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapHeatmap.m; sourceTree = "<group>"; };
+		0B6F66F92946EDD100886FBD /* AIRGoogleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMap.m; sourceTree = "<group>"; };
+		0B6F66FA2946EDD100886FBD /* AIRGoogleMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircle.h; sourceTree = "<group>"; };
+		0B6F66FB2946EDD100886FBD /* AIRGoogleMapWMSTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapWMSTileManager.h; sourceTree = "<group>"; };
+		0B6F66FC2946EDD100886FBD /* AIRGoogleMapUrlTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTileManager.h; sourceTree = "<group>"; };
+		0B6F66FD2946EDD100886FBD /* AIRGoogleMapCircleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircleManager.h; sourceTree = "<group>"; };
+		0B6F66FE2946EDD100886FBD /* AIRGoogleMapPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygon.m; sourceTree = "<group>"; };
+		0B6F66FF2946EDD100886FBD /* AIRGMSMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSMarker.m; sourceTree = "<group>"; };
+		0B6F67002946EDD100886FBD /* AIRGoogleMapCalloutSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutSubview.m; sourceTree = "<group>"; };
+		0B9964F229BCDE9100B99673 /* abinbevcat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = abinbevcat.entitlements; path = abinbevcat/abinbevcat.entitlements; sourceTree = "<group>"; };
+		0BB99BCB29BD0B8200F26600 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BDFEBF0294445DB00B90051 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
+		1155BD7BE4D742EB9A399D98 /* opensans_italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_italic.ttf; path = ../assets/fonts/opensans_italic.ttf; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* abinbevcat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abinbevcat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = abinbevcat/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = abinbevcat/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = abinbevcat/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = abinbevcat/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = abinbevcat/main.m; sourceTree = "<group>"; };
+		25ADC8395FFD4ED68BA33D9C /* opensans_lightitalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_lightitalic.ttf; path = ../assets/fonts/opensans_lightitalic.ttf; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-abinbevcat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abinbevcat.debug.xcconfig"; path = "Target Support Files/Pods-abinbevcat/Pods-abinbevcat.debug.xcconfig"; sourceTree = "<group>"; };
+		55208496F4A62CE4FB9B7B5F /* Pods_abinbevcat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abinbevcat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-abinbevcat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abinbevcat.release.xcconfig"; path = "Target Support Files/Pods-abinbevcat/Pods-abinbevcat.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-abinbevcat-abinbevcatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abinbevcat-abinbevcatTests.debug.xcconfig"; path = "Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6704DDAA22314EAD9EB7A7ED /* opensans_extrabolditalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_extrabolditalic.ttf; path = ../assets/fonts/opensans_extrabolditalic.ttf; sourceTree = "<group>"; };
+		69BA10B12AAD4919BF9111B2 /* opensans_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_medium.ttf; path = ../assets/fonts/opensans_medium.ttf; sourceTree = "<group>"; };
+		6BEFD15DBADF4C4AA52CF14A /* opensan_variable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensan_variable.ttf; path = ../assets/fonts/opensan_variable.ttf; sourceTree = "<group>"; };
+		7065CD41C8584796B48AA204 /* opensans_semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_semibold.ttf; path = ../assets/fonts/opensans_semibold.ttf; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = abinbevcat/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-abinbevcat-abinbevcatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abinbevcat-abinbevcatTests.release.xcconfig"; path = "Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests.release.xcconfig"; sourceTree = "<group>"; };
+		9327C44673814DF59C764790 /* opensans_light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_light.ttf; path = ../assets/fonts/opensans_light.ttf; sourceTree = "<group>"; };
+		AAAC4894668145268D8E1BD9 /* opensans_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_regular.ttf; path = ../assets/fonts/opensans_regular.ttf; sourceTree = "<group>"; };
+		D8515BBD4A3F4720A5096AC5 /* opensans_extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_extrabold.ttf; path = ../assets/fonts/opensans_extrabold.ttf; sourceTree = "<group>"; };
+		D89838B65E7E4F3CB5915256 /* opensans_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = opensans_bold.ttf; path = ../assets/fonts/opensans_bold.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDD9277A67EDBD436A5460FD /* Pods_abinbevcat_abinbevcatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abinbevcat_abinbevcatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B1DE6AF53B049D9209590D /* Pods_abinbevcat_abinbevcatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7073076E8F6489C80C1B5D26 /* Pods_abinbevcat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* abinbevcatTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* abinbevcatTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = abinbevcatTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6F66892946EB8100886FBD /* AirMaps */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F668A2946EB8100886FBD /* AIRMapLocalTileManager.h */,
+				0B6F668B2946EB8100886FBD /* AIRMapCallout.h */,
+				0B6F668C2946EB8100886FBD /* AIRWeakTimerReference.h */,
+				0B6F668D2946EB8100886FBD /* AIRMapLocalTileOverlay.h */,
+				0B6F668E2946EB8100886FBD /* AIRMapCalloutManager.m */,
+				0B6F668F2946EB8100886FBD /* AIRMap.h */,
+				0B6F66902946EB8100886FBD /* AIRMapPolygon.h */,
+				0B6F66912946EB8100886FBD /* AIRMapPolygonManager.h */,
+				0B6F66922946EB8100886FBD /* AIRMapMarker.h */,
+				0B6F66932946EB8100886FBD /* AIRMapCircleManager.h */,
+				0B6F66942946EB8100886FBD /* AIRWeakMapReference.h */,
+				0B6F66952946EB8100886FBD /* AIRMapUrlTileCachedOverlay.m */,
+				0B6F66962946EB8100886FBD /* AIRMapPolyline.h */,
+				0B6F66972946EB8100886FBD /* AIRMapLocalTile.m */,
+				0B6F66982946EB8100886FBD /* AIRMapWMSTileManager.h */,
+				0B6F66992946EB8100886FBD /* AIRMapUrlTileManager.h */,
+				0B6F669A2946EB8100886FBD /* AIRMapMarkerManager.m */,
+				0B6F669B2946EB8100886FBD /* AIRMapCalloutSubviewManager.h */,
+				0B6F669C2946EB8100886FBD /* AIRMapUrlTile.m */,
+				0B6F669D2946EB8100886FBD /* AIRMapPolylineRenderer.m */,
+				0B6F669E2946EB8100886FBD /* AIRMapOverlayManager.m */,
+				0B6F669F2946EB8100886FBD /* AIRMapWMSTile.h */,
+				0B6F66A02946EB8100886FBD /* AIRMapCircle.h */,
+				0B6F66A12946EB8100886FBD /* AIRMapCoordinate.m */,
+				0B6F66A22946EB8100886FBD /* RCTConvert+AirMap.h */,
+				0B6F66A32946EB8100886FBD /* AIRMapCalloutSubview.m */,
+				0B6F66A42946EB8100886FBD /* AIRMapOverlay.h */,
+				0B6F66A52946EB8100886FBD /* AIRMapOverlayRenderer.h */,
+				0B6F66A62946EB8100886FBD /* AIRMapManager.h */,
+				0B6F66A72946EB8100886FBD /* AIRMapPolylineManager.m */,
+				0B6F66A82946EB8100886FBD /* AIRMapCalloutManager.h */,
+				0B6F66A92946EB8100886FBD /* Callout */,
+				0B6F66AC2946EB8100886FBD /* AIRMapLocalTileOverlay.m */,
+				0B6F66AD2946EB8100886FBD /* AIRWeakTimerReference.m */,
+				0B6F66AE2946EB8100886FBD /* AIRMapCallout.m */,
+				0B6F66AF2946EB8100886FBD /* AIRMapLocalTileManager.m */,
+				0B6F66B02946EB8100886FBD /* AIRMapPolyline.m */,
+				0B6F66B12946EB8100886FBD /* AIRMapSnapshot.h */,
+				0B6F66B22946EB8100886FBD /* AIRWeakMapReference.m */,
+				0B6F66B32946EB8100886FBD /* AIRMapUrlTileCachedOverlay.h */,
+				0B6F66B42946EB8100886FBD /* AIRMapCircleManager.m */,
+				0B6F66B52946EB8100886FBD /* AIRMapMarker.m */,
+				0B6F66B62946EB8100886FBD /* AIRMapPolygonManager.m */,
+				0B6F66B72946EB8100886FBD /* AIRMapPolygon.m */,
+				0B6F66B82946EB8100886FBD /* AIRMap.m */,
+				0B6F66B92946EB8100886FBD /* AIRMapCoordinate.h */,
+				0B6F66BA2946EB8100886FBD /* AIRMapCircle.m */,
+				0B6F66BB2946EB8100886FBD /* AIRMapOverlayManager.h */,
+				0B6F66BC2946EB8100886FBD /* AIRMapWMSTile.m */,
+				0B6F66BD2946EB8100886FBD /* AIRMapPolylineRenderer.h */,
+				0B6F66BE2946EB8100886FBD /* AIRMapUrlTile.h */,
+				0B6F66BF2946EB8100886FBD /* AIRMapCalloutSubviewManager.m */,
+				0B6F66C02946EB8100886FBD /* AIRMapUrlTileManager.m */,
+				0B6F66C12946EB8100886FBD /* AIRMapMarkerManager.h */,
+				0B6F66C22946EB8100886FBD /* AIRMapWMSTileManager.m */,
+				0B6F66C32946EB8100886FBD /* AIRMapLocalTile.h */,
+				0B6F66C42946EB8100886FBD /* AIRMapPolylineManager.h */,
+				0B6F66C52946EB8100886FBD /* AIRMapManager.m */,
+				0B6F66C62946EB8100886FBD /* AIRMapOverlay.m */,
+				0B6F66C72946EB8100886FBD /* AIRMapOverlayRenderer.m */,
+				0B6F66C82946EB8100886FBD /* AIRMapCalloutSubview.h */,
+				0B6F66C92946EB8100886FBD /* RCTConvert+AirMap.m */,
+			);
+			path = AirMaps;
+			sourceTree = "<group>";
+		};
+		0B6F66A92946EB8100886FBD /* Callout */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F66AA2946EB8100886FBD /* SMCalloutView.m */,
+				0B6F66AB2946EB8100886FBD /* SMCalloutView.h */,
+			);
+			path = Callout;
+			sourceTree = "<group>";
+		};
+		0B6F66CA2946EDD100886FBD /* AirGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F66CB2946EDD100886FBD /* AIRDummyView.m */,
+				0B6F66CC2946EDD100886FBD /* AIRGoogleMapWMSTile.h */,
+				0B6F66CD2946EDD100886FBD /* AIRGoogleMapPolyline.h */,
+				0B6F66CE2946EDD100886FBD /* AIRGoogleMapHeatmapManager.h */,
+				0B6F66CF2946EDD100886FBD /* AIRGoogleMapUrlTile.m */,
+				0B6F66D02946EDD100886FBD /* AIRGoogleMapMarkerManager.h */,
+				0B6F66D12946EDD100886FBD /* AIRGoogleMapCalloutManager.h */,
+				0B6F66D22946EDD100886FBD /* AIRGoogleMapPolygonManager.m */,
+				0B6F66D32946EDD100886FBD /* RCTConvert+GMSMapViewType.h */,
+				0B6F66D42946EDD100886FBD /* AIRGoogleMapManager.h */,
+				0B6F66D52946EDD100886FBD /* AIRGoogleMapMarker.m */,
+				0B6F66D62946EDD100886FBD /* AIRGMSPolyline.h */,
+				0B6F66D72946EDD100886FBD /* AIRGoogleMapPolylineManager.h */,
+				0B6F66D82946EDD100886FBD /* AIRGoogleMapOverlay.h */,
+				0B6F66D92946EDD100886FBD /* AIRGMSPolygon.m */,
+				0B6F66DA2946EDD100886FBD /* AIRGoogleMapURLTileManager.m */,
+				0B6F66DB2946EDD100886FBD /* AIRGoogleMapWMSTileManager.m */,
+				0B6F66DC2946EDD100886FBD /* AIRGoogleMapCircle.m */,
+				0B6F66DD2946EDD100886FBD /* AIRGoogleMap.h */,
+				0B6F66DE2946EDD100886FBD /* AIRGoogleMapHeatmap.h */,
+				0B6F66DF2946EDD100886FBD /* AIRGoogleMapOverlayManager.h */,
+				0B6F66E02946EDD100886FBD /* AIRGoogleMapCallout.h */,
+				0B6F66E12946EDD100886FBD /* AIRGoogleMapCalloutSubviewManager.h */,
+				0B6F66E22946EDD100886FBD /* AIRGoogleMapCalloutSubview.h */,
+				0B6F66E32946EDD100886FBD /* AIRGMSMarker.h */,
+				0B6F66E42946EDD100886FBD /* AIRGoogleMapCircleManager.m */,
+				0B6F66E52946EDD100886FBD /* AIRGoogleMapPolygon.h */,
+				0B6F66E62946EDD100886FBD /* AIRGoogleMapCalloutManager.m */,
+				0B6F66E72946EDD100886FBD /* AIRGoogleMapMarkerManager.m */,
+				0B6F66E82946EDD100886FBD /* AIRGoogleMapUrlTile.h */,
+				0B6F66E92946EDD100886FBD /* AIRGoogleMapPolyline.m */,
+				0B6F66EA2946EDD100886FBD /* AIRGoogleMapHeatmapManager.m */,
+				0B6F66EB2946EDD100886FBD /* AIRGoogleMapWMSTile.m */,
+				0B6F66EC2946EDD100886FBD /* AIRDummyView.h */,
+				0B6F66ED2946EDD100886FBD /* AIRGMSPolygon.h */,
+				0B6F66EE2946EDD100886FBD /* AIRGoogleMapOverlay.m */,
+				0B6F66EF2946EDD100886FBD /* AIRGMSPolyline.m */,
+				0B6F66F02946EDD100886FBD /* AIRGoogleMapPolylineManager.m */,
+				0B6F66F12946EDD100886FBD /* AIRGoogleMapManager.m */,
+				0B6F66F22946EDD100886FBD /* AIRGoogleMapMarker.h */,
+				0B6F66F32946EDD100886FBD /* AIRGoogleMapPolygonManager.h */,
+				0B6F66F42946EDD100886FBD /* RCTConvert+GMSMapViewType.m */,
+				0B6F66F52946EDD100886FBD /* AIRGoogleMapCalloutSubviewManager.m */,
+				0B6F66F62946EDD100886FBD /* AIRGoogleMapCallout.m */,
+				0B6F66F72946EDD100886FBD /* AIRGoogleMapOverlayManager.m */,
+				0B6F66F82946EDD100886FBD /* AIRGoogleMapHeatmap.m */,
+				0B6F66F92946EDD100886FBD /* AIRGoogleMap.m */,
+				0B6F66FA2946EDD100886FBD /* AIRGoogleMapCircle.h */,
+				0B6F66FB2946EDD100886FBD /* AIRGoogleMapWMSTileManager.h */,
+				0B6F66FC2946EDD100886FBD /* AIRGoogleMapUrlTileManager.h */,
+				0B6F66FD2946EDD100886FBD /* AIRGoogleMapCircleManager.h */,
+				0B6F66FE2946EDD100886FBD /* AIRGoogleMapPolygon.m */,
+				0B6F66FF2946EDD100886FBD /* AIRGMSMarker.m */,
+				0B6F67002946EDD100886FBD /* AIRGoogleMapCalloutSubview.m */,
+			);
+			path = AirGoogleMaps;
+			sourceTree = "<group>";
+		};
+		11FBAD9043BD41CFB0E7635D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFD15DBADF4C4AA52CF14A /* opensan_variable.ttf */,
+				D89838B65E7E4F3CB5915256 /* opensans_bold.ttf */,
+				078C102C9C9C44E088CC6416 /* opensans_bolditalic.ttf */,
+				D8515BBD4A3F4720A5096AC5 /* opensans_extrabold.ttf */,
+				6704DDAA22314EAD9EB7A7ED /* opensans_extrabolditalic.ttf */,
+				1155BD7BE4D742EB9A399D98 /* opensans_italic.ttf */,
+				9327C44673814DF59C764790 /* opensans_light.ttf */,
+				25ADC8395FFD4ED68BA33D9C /* opensans_lightitalic.ttf */,
+				69BA10B12AAD4919BF9111B2 /* opensans_medium.ttf */,
+				AAAC4894668145268D8E1BD9 /* opensans_regular.ttf */,
+				7065CD41C8584796B48AA204 /* opensans_semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* abinbevcat */ = {
+			isa = PBXGroup;
+			children = (
+				0B9964F229BCDE9100B99673 /* abinbevcat.entitlements */,
+				0BDFEBF0294445DB00B90051 /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = abinbevcat;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				55208496F4A62CE4FB9B7B5F /* Pods_abinbevcat.framework */,
+				EDD9277A67EDBD436A5460FD /* Pods_abinbevcat_abinbevcatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				0BB99BCB29BD0B8200F26600 /* GoogleService-Info.plist */,
+				0B6F66CA2946EDD100886FBD /* AirGoogleMaps */,
+				0B6F66892946EB8100886FBD /* AirMaps */,
+				13B07FAE1A68108700A75B9A /* abinbevcat */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* abinbevcatTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				11FBAD9043BD41CFB0E7635D /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* abinbevcat.app */,
+				00E356EE1AD99517003FC87E /* abinbevcatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-abinbevcat.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-abinbevcat.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-abinbevcat-abinbevcatTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-abinbevcat-abinbevcatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* abinbevcatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "abinbevcatTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = abinbevcatTests;
+			productName = abinbevcatTests;
+			productReference = 00E356EE1AD99517003FC87E /* abinbevcatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* abinbevcat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "abinbevcat" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				252164184B240DACCFEF044A /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = abinbevcat;
+			productName = abinbevcat;
+			productReference = 13B07F961A680F5B00A75B9A /* abinbevcat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "abinbevcat" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* abinbevcat */,
+				00E356ED1AD99517003FC87E /* abinbevcatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDFEBF1294445DB00B90051 /* Fonts in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				0BB99BCC29BD0B8300F26600 /* GoogleService-Info.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F9F678F7F154425789D0D28A /* opensan_variable.ttf in Resources */,
+				ACAB736808214F4C9D438047 /* opensans_bold.ttf in Resources */,
+				83EE7111D3124AE79B49A67C /* opensans_bolditalic.ttf in Resources */,
+				F00829245ABD451D98957AE5 /* opensans_extrabold.ttf in Resources */,
+				806A94D06D004E4C877BDDB1 /* opensans_extrabolditalic.ttf in Resources */,
+				901FBFC64D884C91983C89E6 /* opensans_italic.ttf in Resources */,
+				9C88A03655A0478E9019C7C4 /* opensans_light.ttf in Resources */,
+				73A4160F0C434A6DB17B4FAF /* opensans_lightitalic.ttf in Resources */,
+				097E23848BD84F7E945DFBB0 /* opensans_medium.ttf in Resources */,
+				227EA54472584B8AB0345386 /* opensans_regular.ttf in Resources */,
+				3793E8AC303040C4AF46404B /* opensans_semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		252164184B240DACCFEF044A /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-abinbevcat-abinbevcatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-abinbevcat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abinbevcat/Pods-abinbevcat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abinbevcat-abinbevcatTests/Pods-abinbevcat-abinbevcatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* abinbevcatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6F67022946EDD200886FBD /* AIRGoogleMapUrlTile.m in Sources */,
+				0B6F67172946EDD200886FBD /* AIRGoogleMapHeatmap.m in Sources */,
+				0B6F67132946EDD200886FBD /* RCTConvert+GMSMapViewType.m in Sources */,
+				0B6F67032946EDD200886FBD /* AIRGoogleMapPolygonManager.m in Sources */,
+				0B6F67162946EDD200886FBD /* AIRGoogleMapOverlayManager.m in Sources */,
+				0B6F67102946EDD200886FBD /* AIRGMSPolyline.m in Sources */,
+				0B6F67062946EDD200886FBD /* AIRGoogleMapURLTileManager.m in Sources */,
+				0B6F67142946EDD200886FBD /* AIRGoogleMapCalloutSubviewManager.m in Sources */,
+				0B6F670B2946EDD200886FBD /* AIRGoogleMapMarkerManager.m in Sources */,
+				0B6F67042946EDD200886FBD /* AIRGoogleMapMarker.m in Sources */,
+				0B6F671A2946EDD200886FBD /* AIRGMSMarker.m in Sources */,
+				0B6F671B2946EDD200886FBD /* AIRGoogleMapCalloutSubview.m in Sources */,
+				0B6F670F2946EDD200886FBD /* AIRGoogleMapOverlay.m in Sources */,
+				0B6F67152946EDD200886FBD /* AIRGoogleMapCallout.m in Sources */,
+				0B6F67112946EDD200886FBD /* AIRGoogleMapPolylineManager.m in Sources */,
+				0B6F67012946EDD200886FBD /* AIRDummyView.m in Sources */,
+				0B6F670C2946EDD200886FBD /* AIRGoogleMapPolyline.m in Sources */,
+				0B6F67122946EDD200886FBD /* AIRGoogleMapManager.m in Sources */,
+				0B6F67052946EDD200886FBD /* AIRGMSPolygon.m in Sources */,
+				0B6F67082946EDD200886FBD /* AIRGoogleMapCircle.m in Sources */,
+				0B6F67182946EDD200886FBD /* AIRGoogleMap.m in Sources */,
+				0B6F67192946EDD200886FBD /* AIRGoogleMapPolygon.m in Sources */,
+				0B6F67092946EDD200886FBD /* AIRGoogleMapCircleManager.m in Sources */,
+				0B6F67072946EDD200886FBD /* AIRGoogleMapWMSTileManager.m in Sources */,
+				0B6F670A2946EDD200886FBD /* AIRGoogleMapCalloutManager.m in Sources */,
+				0B6F670E2946EDD200886FBD /* AIRGoogleMapWMSTile.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0B6F670D2946EDD200886FBD /* AIRGoogleMapHeatmapManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* abinbevcat */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-abinbevcat-abinbevcatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = abinbevcatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abinbevcat.app/abinbevcat";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-abinbevcat-abinbevcatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9FQS5ATFCG;
+				INFOPLIST_FILE = abinbevcatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abinbevcat.app/abinbevcat";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-abinbevcat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = abinbevcat/abinbevcat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9FQS5ATFCG;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"FB_SONARKIT_ENABLED=1",
+					"HERMES_ENABLE_DEBUGGER=1",
+					"HAVE_GOOGLE_MAPS=1",
+				);
+				INFOPLIST_FILE = abinbevcat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quoc.abinbevcat;
+				PRODUCT_NAME = abinbevcat;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-abinbevcat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = abinbevcat/abinbevcat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9FQS5ATFCG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"HAVE_GOOGLE_MAPS=1",
+					"HERMES_ENABLE_DEBUGGER=1",
+				);
+				INFOPLIST_FILE = abinbevcat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quoc.abinbevcat;
+				PRODUCT_NAME = abinbevcat;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "abinbevcatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "abinbevcat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "abinbevcat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

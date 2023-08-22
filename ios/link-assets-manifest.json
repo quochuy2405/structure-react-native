@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Open Sans.ttf",
+      "sha1": "9a19a459ca7bca15d2de8269b80411f2b4a71ccf"
+    },
+    {
+      "path": "assets/fonts/opensan_variable.ttf",
+      "sha1": "c9bbed35fd86891c986d21c9bc3d258a5a260218"
+    },
+    {
+      "path": "assets/fonts/opensans_bold.ttf",
+      "sha1": "c23ede86996d8239865bcd04c806e3789aaa0b94"
+    },
+    {
+      "path": "assets/fonts/opensans_bolditalic.ttf",
+      "sha1": "21bb3301498eea8b9c5abb1e8a065276105981a0"
+    },
+    {
+      "path": "assets/fonts/opensans_extrabold.ttf",
+      "sha1": "d26cd8614e40a2dda56953b863e255f1c798c245"
+    },
+    {
+      "path": "assets/fonts/opensans_extrabolditalic.ttf",
+      "sha1": "761181538f88bb8cb16fac503b634e92df17f374"
+    },
+    {
+      "path": "assets/fonts/opensans_italic.ttf",
+      "sha1": "051b6b2acbd0e33252870dc28045ba27ae0acd77"
+    },
+    {
+      "path": "assets/fonts/opensans_light.ttf",
+      "sha1": "448dbc1e8add1538f788c9e34cdb701ed25ac993"
+    },
+    {
+      "path": "assets/fonts/opensans_lightitalic.ttf",
+      "sha1": "96925397a2560a1de4cf0984591a37f62aa6e8bb"
+    },
+    {
+      "path": "assets/fonts/opensans_medium.ttf",
+      "sha1": "f886dd439250f2a8a7326f3f6b433adf34c96fe8"
+    },
+    {
+      "path": "assets/fonts/opensans_regular.ttf",
+      "sha1": "9a19a459ca7bca15d2de8269b80411f2b4a71ccf"
+    },
+    {
+      "path": "assets/fonts/opensans_semibold.ttf",
+      "sha1": "30fcdd8f737e6a86abda2d643d2f23c5286c4663"
+    }
+  ]
+}
