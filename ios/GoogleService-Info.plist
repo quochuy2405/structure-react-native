@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.quoc.abinbevcat</string>
+	<string>com.quoc.test</string>
 	<key>PROJECT_ID</key>
 	<string>abinbev-cat</string>
 	<key>STORAGE_BUCKET</key>

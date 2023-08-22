@@ -8,7 +8,6 @@ export interface LayoutWithHeadingProps {
 
 const LayoutWithHeading: React.FC<LayoutWithHeadingProps> = ({ children }) => {
   // const navigation = useNavigation<AppScreenNavigationProp>()
-
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.color.white.default }}>
       <View
