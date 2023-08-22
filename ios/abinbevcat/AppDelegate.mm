@@ -41,7 +41,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 { 
   [RNNotifications startMonitorNotifications];
   [FIRApp configure];
-  [GMSServices provideAPIKey:@"AIzaSyCbUBfNUG-cXnaofLeEeSZwhnPR8z0W9VU"];
+  [GMSServices provideAPIKey:@""];
   RCTAppSetupPrepareApp(application, true);
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
